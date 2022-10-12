@@ -1,0 +1,3 @@
+- ## Q. ***Write a program in javascript. sum(2)(3);***
+- ## Q. ***How to validate file size and extension before upload?***
+- ## Q. ***Create captcha using javascript?***

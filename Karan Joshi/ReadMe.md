@@ -1,1 +1,0 @@
-# write a blog on Scriptless Test Automation

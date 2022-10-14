@@ -41,3 +41,21 @@ In Mocha or Jasmine, we can use ‘describe’ and ‘it’ block to start writi
 The ‘describe’ block will be called as test suite.
 
 All the test goes inside this suite.
+
+Cypress assertions:
+Just like a TestNG we can also use assertions here to validate the test cases.
+
+     Implicit Assertions –
+
+.should(‘contain’, ”)
+.should(‘have.text’, ”)
+.should(‘be.visible’)
+     Explicit Assertions –
+
+expect(‘name’).to.be.equal(‘cypress’)
+     Assert –
+
+assert.equal(4, 5, ‘Not equal’)
+assert.notEqual(4, 5, ‘Not equal’)
+assert.isAbove(4, 5, ‘Not equal’)
+assert.isExist(4, 5, ‘Not equal’)

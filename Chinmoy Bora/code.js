@@ -1,7 +1,7 @@
 let items = [ 
-    { "id": 3.1, "name": "test 3.1"}, 
-    { "id": 22, "name": "test 3.1" }, 
-    { "id": 23, "name": "changed test 23" } 
+    { id: 3.1, name: "test 3.1"}, 
+    { id: 22, name: "test 3.1" }, 
+    { id: 23, name: "changed test 23" } 
     ]
   
     function removeByKey(array, params){
@@ -12,8 +12,15 @@ let items = [
       }
   
       let removed = removeByKey(items, {
-        key: 'id',
+        key: "id",
         value: 23
       });
   
       console.log(removed);
+2.
+   greet();      
+  function greet() {
+        b = 'hello';
+        console.log(b);
+        var b;
+    }    

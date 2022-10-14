@@ -27,3 +27,17 @@ The nice part is that we can get rid of those Browser Drivers in Cypress
 -Multiple browser support: It supports Chrome, Edge, Electron (default browser comes with Cypress and it run in headless mode) and Firefox (Still in under construction).
 - API Testing support: Cypress can perform HTTP calls; thus, we can test APIs as well.
 - External Plugin supports: Cypress supports external plugins to widen the test coverage.
+
+
+## Cypress Framework:
+All Cypress tests will be run in a recommended framework known as “Mocha.” It will be bundled with Cypress, so there will be no need to download it separately.
+
+There is another one, “Jasmine”.
+# Cypress Test:
+As we will be working on JavaScript, so we need ‘.js’ files to write our automation scripts.
+
+In Mocha or Jasmine, we can use ‘describe’ and ‘it’ block to start writing our test.
+
+The ‘describe’ block will be called as test suite.
+
+All the test goes inside this suite.

@@ -48,3 +48,9 @@ That’s why choosing a vendor that offers both—like UiPath—helps you overco
 We make the integration of AI and RPA painless by handling integration for you and building on the RPA capabilities already native to our Platform.
 
 While other companies work only with the underlying data layer and don’t support the full duplex of communication between front-end apps, the UiPath Platform lets you seamlessly drop in machine learning models using the underlying foundation of RPA.
+
+
+### Using RPA with AI and ML
+IT Central Station members are using RPA with AI and ML. For instance, Shripad M., a Director of Operations at XLNC Technologies, a consultancy, has set up an Automation Anywhere IQ Bot to extract data from invoices. This cognitive bot then applies machine learning to determine if the data is not sitting in the correct columns. The bot puts the data back to the right columns. Oleskii D., a Team Leader at a large tech services company, similarly employs WorkFusion in document recognition tasks. As he explained, “It uses OCR [optical character recognition] and Machine Learning and works with digitized documents. It collects the fields inside the documents, based on the models that we trained with.”
+
+Oleski’s last comment is particularly significant for understanding how RPA, AI and ML work together. The software enables his team to set up a model that can train the bot to perform the task. Over time, the model and training get better as the ML software learns from experience and improves itself.

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check if object is array</title>
+</head>
+
+<body>
+    <h2>Check object is Array or Not:</h2>
+    <h4>Array example</h4>
+    <p id="array1"></p>
+    <h4>Not array Example</h4>
+    <p id="not_array"></p>
+</body>
+
+<script type="text/javascript">
+    const array = [1, 2, 3];
+    const result = Array.isArray(array);
+
+    if (result == true) {
+        document.getElementById('array1').innerHTML = `[${array}] is an array`;
+    }
+    else {
+        document.getElementById('array1').innerHTML = `[${array}] is not an array`;
+    }
+</script>
+<script type="text/javascript">
+    const string1 = "HacktoberFest";
+    const result1 = Array.isArray(string1);
+    if (result1 == true) {
+        document.getElementById('not_array').innerHTML = `"${string1}" is an array`;
+    }
+    else {
+        document.getElementById('not_array').innerHTML = `"${string1}" is not an array`;
+    }
+</script>
+
+</html>

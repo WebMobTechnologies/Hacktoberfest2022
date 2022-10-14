@@ -22,8 +22,6 @@
 
     <script type="text/javascript">
 
-
-
     class MyEventEmitter {
   constructor() {
     this._events = {};
@@ -60,8 +58,6 @@
   }
 }
 
-
-
 const myEventEmitter = new MyEventEmitter();
 
 const handleMyEvent = (data) => {
@@ -72,7 +68,6 @@ myEventEmitter.on('testEvent', handleMyEvent);
 
 myEventEmitter.emit('testEvent', 'hi');
 
-    // console.log('validBraces',validBraces('{<()>}'));
     </script>
 </body>
 </html>

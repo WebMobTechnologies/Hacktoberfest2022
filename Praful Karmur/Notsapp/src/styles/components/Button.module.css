@@ -1,0 +1,28 @@
+.button {
+  /* Disable browser builtin styles */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  font-size: 0.875rem;
+
+  text-transform: uppercase;
+  cursor: pointer;
+  line-height: 3;
+
+  background: #8fbfdc;
+  color: #121212;
+
+  border: none;
+  border-radius: 5px;
+
+  width: 100%;
+
+  transition: filter 0.3s ease;
+}
+
+@media (hover: hover) {
+  .button:hover {
+    filter: brightness(0.9);
+  }
+}

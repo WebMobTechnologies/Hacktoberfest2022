@@ -4,9 +4,9 @@ const string = 'Hello Good Morning';
 
 const ReverseEachWordInSen = (str) => {
     const array = str.split(' ')
-    const reverse = arr.map((string) => {
+    const reverse = array.map((string) => {
         return string.split('').reverse().join('');
     })
     return reverse.join(' ')
 }
-console.log(ReverseEachWordInSen(string));
+

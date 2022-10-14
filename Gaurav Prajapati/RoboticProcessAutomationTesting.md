@@ -20,3 +20,9 @@ Rather, the “robot” in robotic process automation is software robots running
 If that kind of automation technology sounds sort of, well, boring – especially compared to the Hollywood robots – that’s by design. RPA is ultimately about automating some of the most mundane and repetitive computer-based tasks and processes in the workplace. Think copy-paste tasks and moving files from one location to another, for example.
 
 RPA automates everyday processes that once required human action – often a great deal of it performed in rote, time-consuming fashion. That’s also how RPA promises to boost efficiency for organizations.
+
+### What can RPA do? Example use cases and business processes
+
+Show people outside of IT how RPA could reduce drudge work in their day-to-day jobs.
+Explaining and evangelizing RPA outside of IT should be a bit easier than doing so for other topics that are harder to distill down for non-technical people, such as serverless or microservices. The definitions above speak to this. It can also be easier to show people outside of IT how RPA implementations could benefit them directly by reducing drudge work in their day-to-day jobs. (The same task might be more challenging when it comes to explaining to a field service technician how, say, containerization benefits them.)
+

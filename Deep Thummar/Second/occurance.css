@@ -1,0 +1,15 @@
+body {
+    display:flex;
+    width: fit-content;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    padding: 10px;
+}
+button {
+    margin-top: 10px;
+    display: block;
+    padding: 10px;
+}

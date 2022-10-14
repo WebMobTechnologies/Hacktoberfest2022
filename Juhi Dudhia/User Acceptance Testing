@@ -9,4 +9,14 @@ To make the topic clearer, let’s use some examples.
 Imagine working on an e-commerce project for a brick-and-mortar clothing store.
 The website carries advertisements sponsored by local third-party restaurants
 One of the restaurants has requested a new feature that offers shoppers a promo code when they view the restaurant’s site through the advertisement on your site. In this scenario, once the feature has been developed and tested by your team, someone from the restaurant would perform UAT to ensure the new feature satisfies their request.
-
+Purpose of UAT?
+Business Requirements must be available
+Need to to fully develop Application Code
+Ensure you complete Unit Testing, Integration Testing & System Testing
+No Show stoppers, or High or Medium defects in the System Integration Test Phase
+Only Cosmetic errors are acceptable before UAT
+Complete Regression Testing with no major defects
+Ensure you fix and test all the defects reports
+Complete traceability matrix for all testing
+UAT Environment must be ready
+Sign off mail or communication from System Testing Team that the system is ready for UAT execution

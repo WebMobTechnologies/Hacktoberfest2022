@@ -1,0 +1,75 @@
+.noteContainer {
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px black;
+  background-color: #ffffff0b;
+
+  margin: 1rem 0;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.noteContainer li {
+  list-style: none;
+  text-align: center;
+  margin: 1rem 0;
+
+  display: flex;
+}
+
+.noteContainer li input,
+button {
+  font-family: inherit;
+  padding: 0.3rem;
+  border: none;
+  font-size: 1rem;
+  user-select: none;
+}
+
+.noteContainer li input {
+  border-radius: 5px 0 0 5px;
+  color: #272727;
+}
+
+.noteContainer li button {
+  cursor: pointer;
+  transition: filter 1s ease;
+}
+
+.edit,
+.delete,
+.save {
+  width: 32px;
+  height: 32px;
+}
+
+.edit {
+  background-color: #f3cc4d;
+}
+
+.delete {
+  background-color: #ef6562;
+  border-radius: 0 5px 5px 0;
+}
+
+.save {
+  background-color: #aaf255;
+}
+
+.noteContainer textarea {
+  font-family: inherit;
+  padding: 0.4rem;
+  font-size: 1.1rem;
+  border-radius: 5px 0 5px 5px;
+  border: none;
+  resize: none;
+}
+
+@media (hover: hover) {
+  button:hover {
+    filter: brightness(0.9);
+  }
+}

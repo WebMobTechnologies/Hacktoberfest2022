@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Object Empty or not</title>
+</head>
+
+<body>
+    <p id="object"></p>
+</body>
+<script>
+    const obj = {};
+    let result = Object.keys(obj).length === 0 && obj.constructor === Object;
+    if (result == true) {
+        document.getElementById('object').innerHTML = "The object is empty";
+    }
+    else {
+        document.getElementById('object').innerHTML = "The object is not empty";
+    }
+</script>
+
+</html>

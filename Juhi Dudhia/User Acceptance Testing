@@ -21,3 +21,8 @@ Ensure you fix and test all the defects reports
 Complete traceability matrix for all testing
 UAT Environment must be ready
 Sign off mail or communication from System Testing Team that the system is ready for UAT execution
+
+The Key Benefits Of UAT Testing
+– It certainly helps to find out specific technical/design bugs in the existing software before its release.
+– It works to meet the purpose of the acceptance test and validates if the product fits the needs of the real users.
+– The development team can be close enough to the user’s circle and get to see the picture through the user’s eyes.

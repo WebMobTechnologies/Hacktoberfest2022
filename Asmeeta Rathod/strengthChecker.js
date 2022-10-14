@@ -13,3 +13,7 @@ function strengthChecker(passwordParameter) {
     return "Weak";
   }
 }
+
+console.log(strengthChecker("LksLdmDfgsldkgm?434?23")); // Strong
+console.log(strengthChecker("test#345")); // Weak
+console.log(strengthChecker("Success#345")); // Strong

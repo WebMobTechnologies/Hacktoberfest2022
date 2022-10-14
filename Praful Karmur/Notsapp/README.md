@@ -11,10 +11,6 @@
   <a href='#start-the-project'>Start the Project</a>
 </p>
 
-## Live Preview
-
-https://notes-app-eight.vercel.app/
-
 ## Technologies Used
 
 - CSS Modules

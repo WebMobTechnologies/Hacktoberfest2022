@@ -1,3 +1,5 @@
+// Reverse the number i.e. input: 1234 output: 4321 //
+
 #include <stdio.h>
 
 int main() {

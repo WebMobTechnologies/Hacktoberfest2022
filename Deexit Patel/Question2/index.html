@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+<body>
+    <h1>Write a script that returns the number of occurrences of character given a string as input ?</h1>
+    <h3>Add a string here:</h3>
+    <input type="text" />
+    <button onclick="getOccurrences()">Submit</button>
+    <div id="doc"></div>
+    <script>
+
+        function getOccurrences() {
+            const string = document.querySelector("input").value;
+            const object = {};
+            for (const s in string) {
+                if (object.hasOwnProperty(string[s])) {
+                    object[string[s]] += 1;
+                } else {
+                    object[string[s]] = 1;
+                }
+            }
+
+            const div = document.getElementById("doc");
+            for (const [key, value] of Object.entries(object)) {
+                const oc = document.createElement("p");
+                oc.innerHTML = key + " : " + value;
+                div.appendChild(oc);
+            }
+
+        }
+    </script>
+</body>
+</html>

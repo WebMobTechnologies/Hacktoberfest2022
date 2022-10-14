@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Roman numeral</title>
+</head>
+<body>
+    <div class="conrainer" style="margin-left: 40%; margin-top: 10%;">
+        <form>
+            <br /><br /><br />
+            <label for="number">Enter number to convert</label>
+            <br /><br /><br />
+            <input type="number" id="number" value="10" required>
+            <br /><br /><br />
+            <input type="button" value="Convert Number" onclick="convertNumber()">
+        </form>
+        <br /><br /><br />
+        <h3 id="romanNumber"></h3>
+    </div>
+<script>
+    function convertNumber(){
+        // get the numbers from input
+        var number = document.getElementById("number").value; // value of number
+        
+        // Convert number to roman and update
+        document.getElementById("romanNumber").innerHTML = "Roman number is " + converToRoman(number);
+    }
+
+    const converToRoman = (num) => {
+        const map = {
+            M: 1000,
+            CM: 900,
+            D: 500,
+            CD: 400,
+            C: 100,
+            XC: 90,
+            L: 50,
+            XL: 40,
+            X: 10,
+            IX: 9,
+            V: 5,
+            IV: 4,
+            I: 1,
+        };
+        let result = '';
+        
+        for (key in map) {
+            const repeatCounter = Math.floor(num / map[key]);
+            
+            if (repeatCounter !== 0) {
+                result += key.repeat(repeatCounter);
+            }
+
+            num %= map[key];
+
+            if (num === 0) return result;
+        }
+        return result;
+    };
+</script>
+</body>
+</html>

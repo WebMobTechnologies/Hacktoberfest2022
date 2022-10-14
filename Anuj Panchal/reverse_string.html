@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacktoberfest</title>
+</head>
+
+<body>
+    <p id="para1"></p>
+</body>
+<script>
+    function reverseString(str) {
+        let newString = "";
+        for (let i = str.length - 1; i >= 0; i--) {
+            newString += str[i];
+        }
+        return newString;
+    }
+    const string = prompt('Enter a string: ');
+    const result = reverseString(string);
+    document.getElementById('para1').innerHTML = result;
+</script>
+
+</html>

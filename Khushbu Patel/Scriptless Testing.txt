@@ -6,4 +6,4 @@ Users barely have to write a piece of code to automate a test case. They only ne
 
 However, scriptless test automation doesn’t mean that coding or test scripts are completely eliminated. It rather simplifies the entire process to make it easier for humans to perform.
 
-When using a scriptless automation test framework, testers will have less interaction with the code, while the amount of code needed to run the test cases is automatically generated at the backend.
+

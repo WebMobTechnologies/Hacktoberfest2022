@@ -8,10 +8,14 @@
 </head>
 <body>
     <div>   
-            <h2>BEFORE REMOVING ARRAY ELEMENT :</h2>
-            <H1 id="before"></H1>
-            <h2>AFTER REMOVING ARRAY ELEMENT BASED ON OBJECT PROPERTIES :</h2>
-            <h1 id="result"></h1>
+            <h4>BEFORE REMOVING ARRAY ELEMENT :</h4>
+            <h3 id="before"></h3>
+            <h4>AFTER REMOVING ARRAY ELEMENT BASED ON OBJECT PROPERTIES :</h4>
+            <h3 id="result"></h3>
+
+            <h4>Hoisting example in javascript</h4>
+            <h3 id="hoisting"> </h3>
+            <h5 id="note"></h5>
 
         
     </div>
@@ -41,9 +45,16 @@
       for(let i=0;i<=removed.length-1;i++){
         document.getElementById('result').innerHTML= JSON.stringify(removed)
       }
-      
+         
+       function greet(){
+         say="hello";
+        document.write( say );// say is accesible here because of variable say declearation is hoisted to the top
+        var say;
+        
 
-
+       }
+       document.getElementById('hoisting').innerHTML=greet() ;
+       document.getElementById('note').innerHTML="hello is accesible here because of variable say declearation is hoisted to the top in greet function"
       
     </script>
 </body>

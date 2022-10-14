@@ -1,26 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hactober Fest</title>
+    <title>Remove properties</title>
 </head>
+
 <body>
-    <div>   
-            <h4>BEFORE REMOVING ARRAY ELEMENT :</h4>
-            <h3 id="before"></h3>
-            <h4>AFTER REMOVING ARRAY ELEMENT BASED ON OBJECT PROPERTIES :</h4>
-            <h3 id="result"></h3>
-
-            <h4>Hoisting example in javascript</h4>
-            <h3 id="hoisting"> </h3>
-            <h5 id="note"></h5>
-
-        
-    </div>
-    <script>
- let items = [ 
+    <h4>BEFORE REMOVING ARRAY ELEMENT :</h4>
+    <h3 id="before"></h3>
+    <h4>AFTER REMOVING ARRAY ELEMENT BASED ON OBJECT PROPERTIES :</h4>
+    <h3 id="result"></h3>
+ <script>
+    let items = [ 
     { id: 3.1, name: "test 3.1"}, 
     { id: 22, name: "test 3.1" }, 
     { id: 23, name: "changed test 23" } 
@@ -45,17 +39,7 @@
       for(let i=0;i<=removed.length-1;i++){
         document.getElementById('result').innerHTML= JSON.stringify(removed)
       }
-         
-       function greet(){
-         say="hello";
-        document.write( say );// say is accesible here because of variable say declearation is hoisted to the top
-        var say;
-        
-
-       }
-       document.getElementById('hoisting').innerHTML=greet() ;
-       document.getElementById('note').innerHTML="hello is accesible here because of variable say declearation is hoisted to the top in greet function"
-      
-    </script>
+ </script>
 </body>
+
 </html>

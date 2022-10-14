@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Program output using Fat arrow function</h3>
+
+
+    <h4>BEFORE REMOVING ARRAY ELEMENT :</h4>
+    <h3 id="before"></h3>
+    <script>
+        let items = [ 
+    { id: 3.1, name: "test 3.1"}, 
+    { id: 22, name: "test 3.1" }, 
+    { id: 23, name: "changed test 23" } 
+    ]
+    for(let i=0;i<=items.length-1;i++){
+        document.getElementById('before').innerHTML= JSON.stringify(items);
+      }
+  
+ const removeByKey=(array, params)=>{
+        array.some(function(item, index) {
+          return (array[index][params.key] === params.value) ? !!(array.splice(index, 1)) : false;
+        });
+        return array;
+      }
+  
+      let removed = removeByKey(items, {
+        key: "id",
+        value: 23
+      });
+      console.log(removed);
+
+      for(let i=0;i<=removed.length-1;i++){
+        document.getElementById('result').innerHTML= JSON.stringify(removed)
+      }
+    </script>
+</body>
+
+</html>

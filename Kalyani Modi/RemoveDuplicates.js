@@ -14,5 +14,5 @@ function getUnique(arr){
 const array = [1, 2, 3, 2, 3];
 
 // calling the function
-// passing array argument
+// passing array argument new added 
 getUnique(array);

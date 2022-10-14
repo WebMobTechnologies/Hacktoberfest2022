@@ -98,3 +98,7 @@ var intToRoman = function (num) {
   }
   return ans;
 };
+
+console.log(intToRoman(3)); // III
+console.log(intToRoman(58)); // LVIII
+console.log(intToRoman(1994)); // MCMXCIV

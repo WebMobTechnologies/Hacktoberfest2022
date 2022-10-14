@@ -26,3 +26,8 @@ RPA automates everyday processes that once required human action – often a gre
 Show people outside of IT how RPA could reduce drudge work in their day-to-day jobs.
 Explaining and evangelizing RPA outside of IT should be a bit easier than doing so for other topics that are harder to distill down for non-technical people, such as serverless or microservices. The definitions above speak to this. It can also be easier to show people outside of IT how RPA implementations could benefit them directly by reducing drudge work in their day-to-day jobs. (The same task might be more challenging when it comes to explaining to a field service technician how, say, containerization benefits them.)
 
+
+### Benefits of RPA
+In addition to business process like the ones we just examined in finance, customer service, and HR, what are the other benefits of RPA? Think about what your organization could do with the reclaimed IT team time, advises Eveline Oehrlich, Chief Research Analyst at DevOps Institute.
+
+"The productivity potential of RPA is too promising to ignore," Oerlich notes. "The technology will continue to improve, but that doesn’t necessarily mean robots are taking away jobs. Ideally, these bots will allow CIOs to free up employees for more meaningful work that will advance their organization’s digital transformation efforts. Also, remind skeptics that many vendors offer free trials so you can experience RPA in action before committing."

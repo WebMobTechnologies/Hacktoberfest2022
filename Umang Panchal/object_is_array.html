@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>check IF an Object is an Array</title>
+    </head>
+    <body>
+        <h2>Object is Array or Not:</h2>
+        <br>
+        <h4>Array example</h4>
+        <p id="array1"></p>
+
+        <h4>Not array Example</h4>
+        <p id="not_array"></p>
+    </body>
+    <script type="text/javascript">
+            const array = [1, 2, 3];
+            const result = Array.isArray(array);
+            console.log("result",result);
+            if(result) {
+            // console.log(`[${arr}] is an array.`);
+                document.getElementById('array1').innerHTML=`[${array}] is an array`;
+            }
+            else {
+            // console.log(`${arr} is not an array.`);
+                document.getElementById('array1').innerHTML=`[${array}] is not an array`;
+            }
+    </script>
+     <script type="text/javascript">
+        const string1 = "HacktoberFest";
+        const result1 = Array.isArray(string1);
+        console.log("result",result);
+        if(result1) {
+        // console.log(`[${arr}] is an array.`);
+            document.getElementById('not_array').innerHTML=`"${string1}" is an array`;
+        }
+        else {
+        // console.log(`${arr} is not an array.`);
+            document.getElementById('not_array').innerHTML=`"${string1}" is not an array`;
+        }
+</script>
+</html>

@@ -1,1 +1,1 @@
-# write a blog on user testing
+# write a blog on User Acceptance Testing

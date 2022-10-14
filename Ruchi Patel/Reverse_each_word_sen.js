@@ -10,3 +10,4 @@ const ReverseEachWordInSen = (str) => {
     return reverse.join(' ')
 }
 console.log(ReverseEachWordInSen(string));
+

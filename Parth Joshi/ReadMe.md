@@ -1,5 +1,7 @@
 # Creating Products Collaboratively: A Design-Thinking Case Study
 
+![](https://github.com/parthjwmt/Hacktoberfest2022/blob/master/Parth%20Joshi/Cover.png?raw=true)
+
 As a product solution builder, one of our goals is to empathize with our users, understand their primary goals, and what pain points and challenges they face in achieving those goals. As you learn more about your users' goals and pain points, you'll be able to build more user-centric solutions. 
 
 This article presents case studies that show how different teams work together to achieve their goals using the design thinking model.
@@ -30,3 +32,15 @@ We collectively ranked the client's key tasks and goals based on how important t
 ### 3. Ideating
 
 Working with the Product Manager, the Product Designer designed the MVP solution, based on two key customer goals when using the portal. The solution is to create a home screen that shows customer information on the dashboard and allows customers to click on a widget to navigate to a screen where they can manipulate the data presented by the dashboard. We have also created a new table that displays and allows customers to search for invoices. We shared a wireframe with members of the account management and customer support team who initially attended the first workshop. They confirmed that the wireframe captured the main goals and helped the client jump straight to the part of the web portal they needed. The team consulted with the client and approved an MVP based on these two key customer goals. However, further research is needed to learn more about some of the less important goals that customers also want to achieve.
+
+### 4. Prototyping
+
+Product managers and UX designers created additional wireframes based on their other insights from early understanding workshops. After prototyping some solution ideas, we agreed to do A/B testing of design concepts, allowing the client to see different versions of the design targeting different needs. We have discussed the various factors that should be part of the solution. We don't want to have too many widgets on the home screen, which would cause cognitive overload, but we also want to accommodate the highest needs of our users.
+
+### 5. Testing
+The product manager and UX researcher let the A/B testing concepts with customers, who saw value in a hybrid version of the A/B concept prototypes. These tests denied a widely held theory about the customer's primary goal, saving us from having to invest in a piece of functionality that the customer would never use. We also confirmed the high value of our key features in version one. Testing shows the need for two highly rated additional features that we haven't included in the A/B concepts, which were to be part of release version two and will provide additional solutions to meet customer goals and reduce navigation performance issues.
+
+##The Outcome
+
+This team-oriented approach has allowed us to understand the main goals and problems faced by customers and ease their problems by providing solutions based on the goals. Every step of the design-thinking process was essential to the success of this project. By starting with our client's goals, we made sure that we buy-in from them from the beginning. Meetings with internal stakeholders allowed us to learn both about their in-depth knowledge of the system and their perception of customer opinions. Product Management and UX Design created design concepts and tested them with users, allowing us to focus on the most valuable features while avoiding creating cognitive overload for customers. Our highly collaborative approach allowed the team to create a highly user-centric version two of the dashboard.
+

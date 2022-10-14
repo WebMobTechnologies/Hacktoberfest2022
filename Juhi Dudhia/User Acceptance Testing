@@ -9,8 +9,3 @@ To make the topic clearer, let’s use some examples.
 Imagine working on an e-commerce project for a brick-and-mortar clothing store.
 The website carries advertisements sponsored by local third-party restaurants
 One of the restaurants has requested a new feature that offers shoppers a promo code when they view the restaurant’s site through the advertisement on your site. In this scenario, once the feature has been developed and tested by your team, someone from the restaurant would perform UAT to ensure the new feature satisfies their request.
-
-The Key Benefits Of UAT Testing
-– It certainly helps to find out specific technical/design bugs in the existing software before its release.
-– It works to meet the purpose of the acceptance test and validates if the product fits the needs of the real users.
-– The development team can be close enough to the user’s circle and get to see the picture through the user’s eyes.

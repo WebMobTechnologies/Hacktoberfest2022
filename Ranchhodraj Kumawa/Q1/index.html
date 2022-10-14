@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <h1>
+        Check if parenthesis is malformed or not
+    </h1>
+    <div>Note: Only enter parenthesis</div>
+    <br>
+
+
+    <input type="text" placeholder="Enter parenthesis" name="par" required></input>
+    <br>
+    <br>
+    <button  onclick="submit_form()" type="submit" value="Check">Check</button>
+    <br>
+    <br>
+    <div id="success" style="color: green;"></div>
+    <div id="error" style="color: red;"></div>
+    <div id="nodata" style="color: black;"></div>
+
+
+
+
+    <script type="text/javascript">
+
+function submit_form(){  
+    const a = document.querySelector('input').value;
+    console.log('a',a);
+    console.log('validBraces(a.toString());',validBraces(a.toString()));
+    if(a.length > 0){
+        if(validBraces(a.toString())){
+            document.getElementById('success').innerHTML = 'Everything is fine'
+            document.getElementById('error').innerHTML = ''   
+            document.getElementById('nodata').innerHTML = ''   
+        }
+        else{
+            document.getElementById('error').innerHTML = 'Everything is not fine'   
+            document.getElementById('success').innerHTML = ''
+            document.getElementById('nodata').innerHTML = ''   
+        }
+    }
+    else{
+        document.getElementById('nodata').innerHTML = 'Please, enter some parenthesis'   
+        document.getElementById('error').innerHTML = ''   
+        document.getElementById('success').innerHTML = ''
+    }
+    
+}  
+
+        function validBraces(braces){
+    let opening = [ '(', '[', '{','<']
+    let closing = [ ')', ']', '}','>']
+    let arr = []
+    //console.log(closing.indexOf(braces[")"]) === opening.indexOf(arr[")"]))
+    for (let i = 0; i < braces.length; i++) {
+        if (opening.includes(braces[i])) {
+            arr.push(braces[i])
+        } else
+        if (closing.indexOf(braces[i]) === opening.indexOf(arr[arr.length - 1])) {
+            arr.pop()
+        } else return false
+    } return arr.length === 0;
+}
+
+    // console.log('validBraces',validBraces('{<()>}'));
+    </script>
+</body>
+</html>

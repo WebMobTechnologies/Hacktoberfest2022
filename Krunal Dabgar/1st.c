@@ -1,3 +1,5 @@
+// Write non-recursive fibonacci-sequence //
+
 #include<stdio.h>
 
 int main()    

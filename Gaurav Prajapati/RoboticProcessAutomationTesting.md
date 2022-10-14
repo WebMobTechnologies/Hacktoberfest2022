@@ -31,3 +31,10 @@ Explaining and evangelizing RPA outside of IT should be a bit easier than doing 
 In addition to business process like the ones we just examined in finance, customer service, and HR, what are the other benefits of RPA? Think about what your organization could do with the reclaimed IT team time, advises Eveline Oehrlich, Chief Research Analyst at DevOps Institute.
 
 "The productivity potential of RPA is too promising to ignore," Oerlich notes. "The technology will continue to improve, but that doesn’t necessarily mean robots are taking away jobs. Ideally, these bots will allow CIOs to free up employees for more meaningful work that will advance their organization’s digital transformation efforts. Also, remind skeptics that many vendors offer free trials so you can experience RPA in action before committing."
+
+
+###How AI and RPA relate  
+Even as more enterprises tap into RPA, there’s some disagreement on the basic relationship between AI and RPA. 
+As our research report “Executive’s guide to real-world AI,” produced by Harvard Business Review Analytics, notes: “Some question whether RPA qualifies as AI.” 
+RPA deals with structured data. AI is used to gather insights from semi-structured and unstructured data in text, scanned documents, webpages, and PDFs. AI brings value by processing and converting the data to a structured form for RPA to understand.
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <table>
+        <tr>
+          <td colspan="3"><b> Longest palindrome subString </b></td>
+        </tr>
+        <tr>
+          <td><label for="fname">Enter String:</label></td>
+          <td>
+            <input
+              type="text"
+              name="fname"
+              autofocus="True"
+              required
+              id="myText"
+              title="plese enter your first name"
+            />
+          </td>
+        </tr>
+      </table>
+    </form>
+    <button onclick="myFunction()">Try it</button>
+    <p id="demo"></p>
+    <script>
+      function printSubStr(str, low, high) {
+        for (let i = low; i <= high; ++i) document.write(str[i]);
+      }
+      function myFunction() {
+        var str = document.getElementById("myText").value;
+        
+        let n = str.length;
+        let maxLength = 1,
+          start = 0;
+
+        for (let i = 0; i < str.length; i++) {
+          for (let j = i; j < str.length; j++) {
+            let flag = 1;
+
+            for (let k = 0; k < (j - i + 1) / 2; k++)
+              if (str[i + k] != str[j - k]) flag = 0;
+
+            if (flag != 0 && j - i + 1 > maxLength) {
+              start = i;
+              maxLength = j - i + 1;
+            }
+          }
+        }
+        document.write("string:" + str + "<br>");
+        document.write("Longest palindrome subString is: ");
+        printSubStr(str, start, start + maxLength - 1);
+
+         document.write("<br>Length is: " +maxLength );
+
+        return maxLength;
+      }
+  
+
+    </script>
+  </body>
+</html>

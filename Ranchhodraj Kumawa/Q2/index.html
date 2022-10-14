@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <h1>
+        Create Custom Event Emitter class
+    </h1>
+
+    <div>Show console</div>
+
+
+    <br>
+    <br>
+
+    
+
+    <script type="text/javascript">
+
+    class MyEventEmitter {
+  constructor() {
+    this._events = {};
+  }
+
+  on(name, listener) {
+    if (!this._events[name]) {
+      this._events[name] = [];
+    }
+
+    this._events[name].push(listener);
+  }
+
+  removeListener(name, listenerToRemove) {
+    if (!this._events[name]) {
+      throw new Error(`Can't remove a listener. Event "${name}" doesn't exits.`);
+    }
+
+    const filterListeners = (listener) => listener !== listenerToRemove;
+
+    this._events[name] = this._events[name].filter(filterListeners);
+  }
+
+  emit(name, data) {
+    if (!this._events[name]) {
+      throw new Error(`Can't emit an event. Event "${name}" doesn't exits.`);
+    }
+
+    const fireCallbacks = (callback) => {
+      callback(data);
+    };
+
+    this._events[name].forEach(fireCallbacks);
+  }
+}
+
+const myEventEmitter = new MyEventEmitter();
+
+const handleMyEvent = (data) => {
+ console.log('Was fired: ', data);
+};
+
+myEventEmitter.on('testEvent', handleMyEvent);
+
+myEventEmitter.emit('testEvent', 'hi');
+
+    </script>
+</body>
+</html>

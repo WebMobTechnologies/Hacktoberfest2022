@@ -15,3 +15,13 @@ In record and playback, the test steps are produced at the same time the tester 
 While recording a workflow, the scriptless automation tool automatically identifies each step, and saves the object locators for each element and links an action to it. When the recorded steps are executed, the linked action is performed on the saved object locator.
 
 Moreover, in most of the latest scriptless automation tools a recorded test can be used as a reusable workflow, and can be utilized in other tests to decrease test length and easy maintenance.
+Anatomy of a Scriptless Test Automation Framework
+
+A scriptless test automation framework can be easier to understand if we know the important aspects that make it work. There are at least three vital parts in it.
+
+These are:
+
+Frameworks brain: The frameworks brain is the most crucial component in the entire scriptless test automation framework. This is because it performs all of the essential tasks such as automating the logic, validating key areas, integration checking with other areas, and analyzing all third-party apps that are included.
+Input module: The input module is the part in which the user supplies the test inputs for processing. These can be the test steps, setup data, conditions, and expected results. These input components can also include the interpreter, which is tasked with passing data to the framework's brain.
+Output module: Lastly, the output module is the end result and can come out in various forms. Some examples of output modules are logs, reports, results, and dashboards.
+ 

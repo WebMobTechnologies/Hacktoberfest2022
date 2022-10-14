@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File validation</title>
+</head>
+<body>
+    <div class="conrainer" style="margin-left: 40%; margin-top: 10%;">
+        <form>
+            <br /><br /><br />
+            <label for="usrFile">Upload file to check validation</label>
+            <br /><br /><br />
+            <input type="file" id="usrFile" accept=".jpg,.jpeg,.png" required>
+            <br /><br /><br />
+            <input type="button" value="Check File" onclick="checkFile()">
+        </form>
+        <br /><br />
+    </div>
+    <div id="imagePreview"></div>
+<script>
+    function checkFile(){
+        // get the numbers from input
+        var usrFile = document.getElementById("usrFile");
+
+        var filePath = usrFile.value;
+
+        // Allowing file type
+        var allowedExtensions =
+                    /(\.jpg|\.jpeg|\.png)$/i;
+        
+        if (!allowedExtensions.exec(filePath)) {
+            alert('Invalid file type');
+            usrFile.value = '';
+            return false;
+        }
+
+        const fileSize = usrFile.files[0].size / 1024 / 1024;
+
+        if(fileSize > 5) {
+            alert('File size exceeds 5 MiB');
+            usrFile.value = '';
+            return false;
+        }
+
+        // Image preview
+        if (usrFile.files && usrFile.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function(e) {
+                document.getElementById(
+                    'imagePreview').innerHTML =
+                    '<img src="' + e.target.result
+                    + '"/>';
+            };
+                
+            reader.readAsDataURL(usrFile.files[0]);
+        }
+    }
+</script>
+</body>
+</html>

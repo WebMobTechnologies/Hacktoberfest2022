@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Find max difference</title>
+</head>
+<body>
+    <p>Array List</p>
+    <p id="arrList"></p>
+    <p>Sorted array List</p>
+    <p id="arrSortedList"></p>
+    <h3 id="max_diff"></h3>
+<script>
+    // get the random array of 25 numbers between 0 to 100
+    var N = 25; // Lenght of array
+    var between = 100; // form 0 to where?
+    var arrayList = [...Array(N)].map(() => Math.floor(Math.random() * between));
+    document.getElementById("arrList").innerHTML = arrayList;
+    document.getElementById("arrSortedList").innerHTML = arrayList.sort(function (a, b) {
+                                                                return a - b;
+                                                            });
+    document.getElementById("max_diff").innerHTML = "Max Difference is " + (Math.max(...arrayList) - Math.min(...arrayList));
+</script>
+</body>
+</html>

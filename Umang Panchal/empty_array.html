@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empty an Array</title>
+</head>
+<body>
+    <h2>Empty an Array</h2>
+    <p id="filled_array"></p>
+    <p id="empty_array"></p>
+</body>
+<script>
+    var arr1 = ['a','b','c','d','e','f'];
+    document.getElementById('filled_array').innerHTML= "Original Array:"+" ["+arr1+"]";
+    while(arr1.length > 0) {
+        arr1.pop();
+    }
+    document.getElementById('empty_array').innerHTML= "Empty Array:"+" ["+arr1+"]";
+</script>
+</html>

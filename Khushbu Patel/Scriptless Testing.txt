@@ -7,3 +7,65 @@ Users barely have to write a piece of code to automate a test case. They only ne
 However, scriptless test automation doesn’t mean that coding or test scripts are completely eliminated. It rather simplifies the entire process to make it easier for humans to perform.
 
 When using a scriptless automation test framework, testers will have less interaction with the code, while the amount of code needed to run the test cases is automatically generated at the backend.
+How Does Scriptless Test Automation Work?
+The most common method of applying scriptless testing is via the record and playback technique. This process involves recording the tests on-screen and then replaying them back as an automated test.
+
+In record and playback, the test steps are produced at the same time the tester prompts the online application. Further, a tester can then run these test procedures using a browser, if they want to.
+
+While recording a workflow, the scriptless automation tool automatically identifies each step, and saves the object locators for each element and links an action to it. When the recorded steps are executed, the linked action is performed on the saved object locator.
+
+Moreover, in most of the latest scriptless automation tools a recorded test can be used as a reusable workflow, and can be utilized in other tests to decrease test length and easy maintenance.
+Anatomy of a Scriptless Test Automation Framework
+
+A scriptless test automation framework can be easier to understand if we know the important aspects that make it work. There are at least three vital parts in it.
+
+These are:
+
+Frameworks brain: The frameworks brain is the most crucial component in the entire scriptless test automation framework. This is because it performs all of the essential tasks such as automating the logic, validating key areas, integration checking with other areas, and analyzing all third-party apps that are included.
+Input module: The input module is the part in which the user supplies the test inputs for processing. These can be the test steps, setup data, conditions, and expected results. These input components can also include the interpreter, which is tasked with passing data to the framework's brain.
+Output module: Lastly, the output module is the end result and can come out in various forms. Some examples of output modules are logs, reports, results, and dashboards.
+ 
+ Benefits of Scriptless Automation
+As you can see, scriptless test automation has some major differences compared to the traditional way of approaching tests. What are some of these benefits?
+
+Let’s take a look at the main benefits that scriptless test automation has to offer:
+
+Reduce Time Required for Automation
+Scriptless test automation can significantly reduce the time needed to automate the tests. It allows even the oversized test suites to go through automation immediately and easily.
+
+Thanks to its scriptless approach, this type of test automation is faster and results in reducing the time to market for products that use it. Delivery to customers is also quicker with scriptless test automation.
+
+Since far less time is spent on creating the automation, the testing team has more time on their hands to do other important things. The group will be able to identify issues and glitches better even at the early stages of the software development life cycle compared to using a traditional approach.
+
+Helps Save Costs and Is Highly Reliable
+Scriptless test automation can significantly reduce the cost of companies, especially since there will be less need to bring in programming resources or experts to train testers. This is because scriptless tools are designed to be straightforward and easy to use. Even manual testers can employ these systems to create scripts using actions and objects.
+
+Test automation and quality assurance providers will find it more efficient to use scriptless automation as it eliminates the need to code using specific tools. This means that firms won’t have to rely on the standard automation testing tools that are prevalent nowadays.
+
+Additionally, scriptless test automation results in an easier way to maintain all of the test suites. Many considered it a hassle-free way of applying automated testing in the development lifecycle.
+
+With scriptless test automation, performing changes in test suites becomes less complicated leading to improved agility and response time. This makes it highly reliable compared to other forms of testing.
+
+Eradicates Technical Obligations
+When you have an approach that can integrate a smarter framework design right from the start, it’s possible for teams to get rid of additional costs that can come up from augmented script maintenance efforts. Scriptless test automation doesn’t have much use for scripts, essentially avoiding much of the technical obligations that come with them.
+
+When scriptless test automation is used, firms won’t have to deal with setbacks of not knowing technical aspects such as integration and coding. Testers simply have to write and run their test cases while acquiring the results they need.
+
+Eliminates the Need for Tool-Specific Coding
+Adding scriptless test automation to one’s arsenal means that testing teams don’t need to learn any specific coding language that can be limited to just a few systems. Basic english and an understanding of software testing logic are often the main requirements with a scriptless framework.
+
+Teams don’t need to write a single line of code manually when going through test cases.
+
+Increased Accuracy
+Scriptless test automation doesn’t experience problems related to human errors, unlike the traditional way of applying tests. Miscalculations in manual testing can easily lead to left-out issues and bugs that can carry over to the final output.
+
+With scriptless automation, testing software can be extremely accurate, minimizing the chances of error from happening.
+
+Best Tools for Scriptless Automation Testing
+The following are some of the best scriptless automation tools available today:
+
+Selenium IDE: Selenium is a web automation tool that is one of the most widely used in the market today. It is an open-source solution for automation testing and provides record and playback features in its Selenium IDE browser add-on.
+Ranorex Studio: Ranorex provides testers with an ideal cross-platform and cross-browser testing environment. It is primarily used by teams for GUI testing on web, mobile, and desktop environments.
+Avo Assure: This fully no-code test automation solution supports more than 200 technologies. It also enables users to test sophisticated business processes that involve areas such as web, mobile, and desktop.
+ACCELQ: This AI-powered codeless test automation tool allows testers to automate web, desktop, mainframes, and other apps without much effort. It allows for speedy testing cycles while being easy to integrate with existing DevOps toolchains.
+Other tools Functionize, Katalon Studio, and Mabl can also be used.

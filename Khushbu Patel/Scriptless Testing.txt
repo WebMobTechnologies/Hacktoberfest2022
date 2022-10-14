@@ -7,3 +7,11 @@ Users barely have to write a piece of code to automate a test case. They only ne
 However, scriptless test automation doesn’t mean that coding or test scripts are completely eliminated. It rather simplifies the entire process to make it easier for humans to perform.
 
 When using a scriptless automation test framework, testers will have less interaction with the code, while the amount of code needed to run the test cases is automatically generated at the backend.
+How Does Scriptless Test Automation Work?
+The most common method of applying scriptless testing is via the record and playback technique. This process involves recording the tests on-screen and then replaying them back as an automated test.
+
+In record and playback, the test steps are produced at the same time the tester prompts the online application. Further, a tester can then run these test procedures using a browser, if they want to.
+
+While recording a workflow, the scriptless automation tool automatically identifies each step, and saves the object locators for each element and links an action to it. When the recorded steps are executed, the linked action is performed on the saved object locator.
+
+Moreover, in most of the latest scriptless automation tools a recorded test can be used as a reusable workflow, and can be utilized in other tests to decrease test length and easy maintenance.

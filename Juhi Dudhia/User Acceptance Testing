@@ -1,0 +1,5 @@
+User Acceptance Testing Explained
+When a customer requests a new feature, 
+it enters the SDLC. Once developed and added to the system, 
+the new feature will typically go through the four levels of testing: unit testing – performed by developers,
+integration testing and system testing – performed by someone on the QA team, and finally, acceptance testing – performed by either a stakeholder, someone who has requested the new feature, someone who will use the new feature, or someone who represents one of the users.

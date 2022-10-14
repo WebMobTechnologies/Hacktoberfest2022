@@ -7,3 +7,7 @@ But companies that don't invest in this space will quickly be overtaken by user-
 
 Researchers found that developers spend 50% of their time fixing projects. Think of it this way: 50% of her developer salary is wasted fixing bugs that her UX design process should have eliminated in previous iterations. "The developer spends her 50% of her time fixing the project."
 For companies that invest in UX, developers spend time on projects that don't require changes, resulting in faster product releases.
+
+## 2 - Increase sales
+
+A 2016 design study found that the more companies invested in design, the more revenue they generated. Dubbed a “design unicorn,” the company with the most investment in his UX saw his revenue grow by 75%. Even companies that invest less in UX (those that simply think of themselves as “design-centric”) saw a 60% increase in revenue.

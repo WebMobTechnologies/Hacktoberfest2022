@@ -1,1 +1,9 @@
 ScriptLess Testing 
+What is Scriptless Test Automation and Why Use It?
+Scriptless test automation is an approach wherein users can automate test cases even if they lack in-depth knowledge of the code. Automated tests are generated through this process by validating the test automation logic.
+
+Users barely have to write a piece of code to automate a test case. They only need to indicate which step needs to be carried out next instead of writing the code themselves.
+
+However, scriptless test automation doesn’t mean that coding or test scripts are completely eliminated. It rather simplifies the entire process to make it easier for humans to perform.
+
+When using a scriptless automation test framework, testers will have less interaction with the code, while the amount of code needed to run the test cases is automatically generated at the backend.

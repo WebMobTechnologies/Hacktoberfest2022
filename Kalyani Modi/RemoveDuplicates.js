@@ -15,4 +15,9 @@ const array = [1, 2, 3, 2, 3];
 
 // calling the function
 // passing array argument new added 
+
+getUnique(array);
+getUnique(array);
+getUnique(array);
+getUnique(array);
 getUnique(array);

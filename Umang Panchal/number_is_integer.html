@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number is Integer or Not</title>
+</head>
+<body>
+    <h3>Check If Number is Integer or Not</h3>
+    <input type="number" id="number_val" onchange="numberHandler()">
+    <p id="number1"></p>
+
+</body>
+<script>
+    function numberHandler(){
+        var x = document.getElementById("number_val").valueAsNumber;
+        // console.log(typeof x);
+        let result=Number.isInteger(x);
+        console.log("res",result);
+        if(result){
+            document.getElementById('number1').innerHTML=`${x} is Integer`;    
+        }else{
+            document.getElementById('number1').innerHTML=`${x} is Not Integer`;    
+        }
+    }
+</script>
+</html>

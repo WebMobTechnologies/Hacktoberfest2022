@@ -5,7 +5,7 @@
     function Enqueue(element) {
         stack1.push(element);
     }
-  
+// Dequeue
     function Dequeue() {
         if (stack2.length === 0) {
             if (stack1.length === 0) {
